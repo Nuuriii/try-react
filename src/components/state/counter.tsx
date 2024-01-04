@@ -1,7 +1,9 @@
+//manggil use state agar bisa dipakai
 import { useState } from "react";
 
-//state
+//kalau mau pakai use state harus buaat component dulu
 export function Counter() {
+  //definisiin nilai useStatenya
   const [count, setCount] = useState(0);
 
   const addCount = () => {
